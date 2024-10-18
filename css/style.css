@@ -5,11 +5,102 @@
 }
 
 body{
-    min-height: 100vh;
     width: 100%;
-    text-align: center;
-    background-color: black;
-    background-image: radial-gradient(ivory, black)
+    height: 100vh;
+    font-family: "Courgette", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+    background-color:black;
+    color: white;
+
+    animation: pulse 8s 2;
+    animation-delay: 1s;
+    
 }
+
+#fadeinLeft{
+    animation-name: fadeinLeft;
+    animation-delay: 5s;
+    animation-direction: normal;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    animation-timing-function:cubic-bezier(0.47, 0, 0.745, 0.715);
+}
+
+
+@keyframes pulse {
+    0%, 100% {
+      background-color: black;
+    }
+    50% {
+      background-color: white;
+    }
+  }
+
+  @keyframes fadeinLeft {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+  }
+
+
+
+
+
+
+
+
+
+/*animation-name: pulse;
+    /*animation-delay: 2s;
+    animation-direction: ease-in-out;
+    animation-duration: 2.8s;
+    animation-iteration-count: 4;*/
+
+
+
+/*@keyframes pulse {
+    from {
+        background-color: black;
+    }
+    to{
+        background-image: grey, black;
+    }
+}*/
+
+
+/*#threeLines{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: start;
+    width: 100%;
+    height: 100vh;
+}*/
+
+
+/*.backgroundcolor{
+    height: 100vh;
+    animation: animate 2s ease-in 4;
+}
+
+@keyframes animate{
+    0%{
+        background-color: black
+    }
+    100%{
+        background-color: white;
+    }
+}*/
+
+
+
+
+
 
 
