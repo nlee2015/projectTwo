@@ -13,7 +13,6 @@ body{
     font-family: "Courgette", cursive;
     font-style: normal;
     background-color:black;
-    color: white;
     position: relative;
 }
 
@@ -24,27 +23,29 @@ body{
     align-items: center;
     font-weight: normal;
     font-size: 65pt;
+    color: white;
 
     animation-name: fadeinCenter;
     animation-direction:normal;
-    animation-duration: 2s;
+    animation-duration: 1s;
     animation-fill-mode: backwards;
     animation-iteration-count: 1;
     animation-timing-function:ease-in;
 }
 
 #fadeinCenterBelow{
-    display: inline-block;
-    flex-direction: column;
+    display: inline-flex;
+    flex-direction: row;
     justify-content: space-around;
     text-align: center;
     font-size: 65pt;
     position: relative;
+    color: white;
 
     animation-name: fadeinCenterBelow;
-    animation-delay: 2s;
+    animation-delay: 1.5s;
     animation-direction: normal;
-    animation-duration: 5s;
+    animation-duration: 4s;
     animation-fill-mode: both;
     animation-iteration-count: 1;
     animation-timing-function:cubic-bezier(0.47, 0, 0.745, 0.715);
@@ -57,15 +58,24 @@ body{
     text-align: center;
     font-size: 200pt;
     font-weight: bolder;
+    color: white;
+    text-transform: uppercase;
+    word-spacing: 10px;
 
     animation-name: glow;
-    animation-delay: 2s;
-    animation-direction: normal;
-    animation-duration: 10s;
+    animation-delay: 6s;
+    animation-direction: alternate;
+    animation-duration: 2.8s;
     animation-fill-mode: both;
-    animation-iteration-count: 1;
-    animation-timing-function:cubic-bezier(0.47, 0, 0.745, 0.715);
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
 }
+
+h2{
+    animation: pulse 10s 1;
+    font-size: 65pt;
+}
+
 
 @keyframes fadeinCenter{
     0%{
@@ -87,12 +97,43 @@ body{
 
 @keyframes glow{
     from{
-        text-shadow: black;
+        text-shadow: 0 0 20px white;
     }
     to{
-        text-shadow: white;
+        text-shadow: 0 0 30px white,
+                    0 0 10px white;
+    }
+    0%{
+        opacity: 0;
+    }
+    75%{
+        opacity: 0.55;
+    }
+    100%{
+        opacity: 1;
     }
 }
+
+@keyframes pulse {
+    0%{
+      color: black;
+    }
+    15%{
+       color: black ;
+    }
+    35%{
+        color: grey;
+    }
+    40%{
+        color:gainsboro;
+    }
+    45%{
+        color: rgb(255, 255, 255);
+    }
+    100% {
+      color: white;
+    }
+  }
 
 
 

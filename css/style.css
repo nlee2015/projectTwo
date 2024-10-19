@@ -107,7 +107,7 @@ a{
         transform: translateX(0pt);
     }
     100%{
-        transform: translateX(2000pt);
+        transform: translateX(800pt);
         opacity: 0;
     }
   }
