@@ -73,17 +73,6 @@ a{
 
 }
 
-/*#fadeinCenter{
-    animation-name: fadeinCenter;
-    animation-delay: 22s;
-    animation-direction: normal;
-    animation-duration: 10s;
-    animation-fill-mode: both;
-    animation-iteration-count: 1;
-    animation-timing-function:cubic-bezier(0.47, 0, 0.745, 0.715);
-}*/
-
-
 
 
 @keyframes pulse {
@@ -226,7 +215,15 @@ a{
     animation-iteration-count: 1;
 }*/
 
-
+/*#fadeinCenter{
+    animation-name: fadeinCenter;
+    animation-delay: 22s;
+    animation-direction: normal;
+    animation-duration: 10s;
+    animation-fill-mode: both;
+    animation-iteration-count: 1;
+    animation-timing-function:cubic-bezier(0.47, 0, 0.745, 0.715);
+}*/
 
 
 
