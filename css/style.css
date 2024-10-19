@@ -5,48 +5,160 @@
 }
 
 body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
     width: 100%;
     height: 100vh;
     font-family: "Courgette", cursive;
-    font-weight: 400;
     font-style: normal;
-    font-size: 50px;
     background-color:black;
     color: white;
+    position: relative;
 
-    animation: pulse 8s 2;
-    animation-delay: 1s;
-    
+    animation: pulse 20s 1; 
 }
 
 #fadeinLeft{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: start;
+    padding-left: 5%;
+    font-weight: bold;
+    font-size: 80pt;
+
     animation-name: fadeinLeft;
-    animation-delay: 5s;
+    animation-delay: 15s;
     animation-direction: normal;
-    animation-duration: 5s;
-    animation-fill-mode: forwards;
+    animation-duration: 10s;
+    animation-fill-mode: both;
     animation-iteration-count: 1;
     animation-timing-function:cubic-bezier(0.47, 0, 0.745, 0.715);
 }
 
+#fadeupCenter{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 55pt;
+
+    animation-name: fadeupCenter;
+    animation-delay: 22s;
+    animation-direction: normal;
+    animation-duration: 8s;
+    animation-fill-mode: both;
+    animation-iteration-count: 1;
+    animation-timing-function:cubic-bezier(0.47, 0, 0.745, 0.715);
+}
+
+a{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 55pt;
+    text-decoration: none;
+    color: white;
+    padding-bottom: 25%;
+
+    animation-name: fadeinCenter;
+    animation-delay: 30s;
+    animation-direction: normal;
+    animation-duration: 10s;
+    animation-fill-mode: both;
+    animation-iteration-count: 1;
+    animation-timing-function:cubic-bezier(0.47, 0, 0.745, 0.715);
+
+}
+
+/*#fadeinCenter{
+    animation-name: fadeinCenter;
+    animation-delay: 22s;
+    animation-direction: normal;
+    animation-duration: 10s;
+    animation-fill-mode: both;
+    animation-iteration-count: 1;
+    animation-timing-function:cubic-bezier(0.47, 0, 0.745, 0.715);
+}*/
+
+
+
 
 @keyframes pulse {
-    0%, 100% {
+    0%{
       background-color: black;
     }
-    50% {
-      background-color: white;
+    15%{
+        background-color: black ;
+    }
+    35%{
+        background-color: grey;
+    }
+    40%{
+        background-color:gainsboro;
+    }
+    45%{
+        background-color: rgb(255, 255, 255);
+    }
+    100% {
+      background-color: black;
     }
   }
 
   @keyframes fadeinLeft {
-    from {
+    0% {
         opacity: 0;
     }
-    to {
+    25% {
         opacity: 1;
     }
+    50%{
+        transform: translateX(0pt);
+    }
+    100%{
+        transform: translateX(2000pt);
+        opacity: 0;
+    }
   }
+
+  @keyframes fadeupCenter {
+    0% {
+        opacity: 0;
+    }
+    100%{
+        opacity: 50;
+    }
+    0%{
+        transform: translateY(500pt);
+    }
+    100%{
+        transform: translateY(-80pt);
+    }
+  }
+
+  @keyframes fadeinCenter{
+    0%{
+        opacity: 0;
+    }
+    25%{
+        opacity:0.25;
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0.55;
+    }
+  }
+
+
+ 
+
+  
+
+
 
 
 
@@ -98,6 +210,21 @@ body{
     }
 }*/
 
+/*.moveRight{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: start;
+    padding-left: 5%;
+    font-weight: bold;
+    font-size: 80pt;
+
+    animation-name: moveRight;
+    animation-delay: 28s;
+    animation-direction: normal;
+    animation-duration: 5s;
+    animation-iteration-count: 1;
+}*/
 
 
 

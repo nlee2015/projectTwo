@@ -1,3 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 100%;
+    height: 100vh;
+    font-family: "Courgette", cursive;
+    font-style: normal;
+    background-color:black;
+    color: white;
+    position: relative;
+}
+
+#fadeinCenter{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: normal;
+    font-size: 65pt;
+
+    animation-name: fadeinCenter;
+    animation-direction:normal;
+    animation-duration: 2s;
+    animation-fill-mode: backwards;
+    animation-iteration-count: 1;
+    animation-timing-function:ease-in;
+}
+
+#fadeinCenterBelow{
+    display: inline-block;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    font-size: 65pt;
+    position: relative;
+
+    animation-name: fadeinCenterBelow;
+    animation-delay: 2s;
+    animation-direction: normal;
+    animation-duration: 5s;
+    animation-fill-mode: both;
+    animation-iteration-count: 1;
+    animation-timing-function:cubic-bezier(0.47, 0, 0.745, 0.715);
+}
+
+#glow{
+    display: inline;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    font-size: 200pt;
+    font-weight: bolder;
+
+    animation-name: glow;
+    animation-delay: 2s;
+    animation-direction: normal;
+    animation-duration: 10s;
+    animation-fill-mode: both;
+    animation-iteration-count: 1;
+    animation-timing-function:cubic-bezier(0.47, 0, 0.745, 0.715);
+}
+
+@keyframes fadeinCenter{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+@keyframes fadeinCenterBelow{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+@keyframes glow{
+    from{
+        text-shadow: black;
+    }
+    to{
+        text-shadow: white;
+    }
+}
+
+
+
 
 
 
