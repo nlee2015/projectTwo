@@ -22,7 +22,7 @@ body{
     justify-content: space-around;
     align-items: center;
     font-weight: normal;
-    font-size: 55pt;
+    font-size: 65pt;
     color: white;
 
     animation-name: fadeinCenter;
@@ -38,7 +38,7 @@ body{
     flex-direction: row;
     justify-content: space-around;
     text-align: center;
-    font-size: 55pt;
+    font-size: 65pt;
     position: relative;
     color: white;
 
@@ -73,7 +73,7 @@ body{
 
 h2{
     animation: pulse 10s 1;
-    font-size: 55pt;
+    font-size: 65pt;
 }
 
 
