@@ -53,19 +53,26 @@ body{
 
 #glow{
     display: inline;
+    text-align: center;
+    justify-content: space-around;
+}
+
+a{
+    display: inline;
     flex-direction: row;
     justify-content: space-around;
-    text-align: center;
+    align-items: center;
     font-size: 150pt;
     font-weight: bolder;
     color: white;
     text-transform: uppercase;
     word-spacing: 10px;
+    text-decoration: none;
 
     animation-name: glow;
     animation-delay: 6s;
     animation-direction: alternate;
-    animation-duration: 2.8s;
+    animation-duration: 4s;
     animation-fill-mode: both;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in;
@@ -136,7 +143,23 @@ h2{
   }
 
 
+ /*display: inline;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    font-size: 150pt;
+    font-weight: bolder;
+    color: white;
+    text-transform: uppercase;
+    word-spacing: 10px;
 
+    animation-name: glow;
+    animation-delay: 6s;
+    animation-direction: alternate;
+    animation-duration: 4s;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;*/
 
 
 
