@@ -28,7 +28,7 @@ body{
 
     animation-name: left;
     animation-direction: normal;
-    animation-duration: 10s;
+    animation-duration: 8s;
     animation-fill-mode: both;
     animation-iteration-count: 1;
     animation-timing-function:ease-in;
@@ -112,7 +112,7 @@ a{
 
 @keyframes center{
     0%{
-        opacity: 0.12;
+        opacity: 0;
     }
     100%{
         transform: scale(1.2);
