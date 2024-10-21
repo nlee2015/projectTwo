@@ -16,127 +16,114 @@ body{
     position: relative;
 }
 
-#fadeinCenter{
+#left{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    align-items: center;
+    align-items: start;
     font-weight: normal;
-    font-size: 65pt;
+    font-size: 55pt;
     color: white;
+    padding-left: 5%;
 
-    animation-name: fadeinCenter;
-    animation-direction:normal;
-    animation-duration: 1s;
-    animation-fill-mode: backwards;
+    animation-name: left;
+    animation-direction: normal;
+    animation-duration: 10s;
+    animation-fill-mode: both;
     animation-iteration-count: 1;
     animation-timing-function:ease-in;
 }
 
-#fadeinCenterBelow{
-    display: inline-block;
+#fadeinRight{
+    display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    text-align: center;
-    font-size: 65pt;
-    position: relative;
+    justify-content: flex-end;
+    align-items:flex-end;
+    font-weight:bold;
+    font-size: 55pt;
     color: white;
+    padding-right: 5%;
+    
 
-    animation-name: fadeinCenterBelow;
-    animation-delay: 1.5s;
+    animation-name: fadeinRight;
+    animation-delay: 2s;
     animation-direction: normal;
-    animation-duration: 4s;
+    animation-duration: 8s;
     animation-fill-mode: both;
     animation-iteration-count: 1;
-    animation-timing-function:cubic-bezier(0.47, 0, 0.745, 0.715);
+    animation-timing-function:ease-in;
 }
 
-#glow{
-    display: inline;
-    flex-direction: row;
-    justify-content: space-around;
-    text-align: center;
-    font-size: 150pt;
-    font-weight: bolder;
+#center{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items:center;
+    font-weight:bold;
+    font-size: 85pt;
     color: white;
-    text-transform: uppercase;
-    word-spacing: 10px;
-
-    animation-name: glow;
-    animation-delay: 6s;
-    animation-direction: alternate;
-    animation-duration: 2.8s;
-    animation-fill-mode: both;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in;
 }
 
-h2{
-    animation: pulse 10s 1;
+
+a{
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:center;
+    font-weight:bold;
     font-size: 65pt;
+    color: white;
+    text-decoration: none;
+
+    animation-name: center;
+    animation-delay: 8s;
+    animation-direction: normal;
+    animation-duration: 1.5s;
+    animation-fill-mode: both;
+    animation-iteration-count: 1;
+    animation-timing-function:ease-in;
 }
 
 
-@keyframes fadeinCenter{
-    0%{
+
+
+@keyframes left{
+    0%, 100%{
         opacity: 0;
     }
-    100%{
+    50%{
         opacity: 1;
     }
 }
 
-@keyframes fadeinCenterBelow{
+@keyframes fadeinRight{
+0%, 100%{
+    transform: scale(0.8);
+    opacity: 0;
+}
+50%{
+    transform: scale(1);
+    opacity: 1;
+}
+100%{
+    transform: translateX(-500pt);
+}
+}
+
+@keyframes center{
     0%{
-        opacity: 0;
+        opacity: 0.12;
     }
     100%{
+        transform: scale(1.2);
         opacity: 1;
     }
 }
 
-@keyframes glow{
-    from{
-        text-shadow: 0 0 20px white;
-    }
-    to{
-        text-shadow: 0 0 30px white,
-                    0 0 10px white;
-    }
-    0%{
-        opacity: 0;
-    }
-    75%{
-        opacity: 0.55;
-    }
-    100%{
-        opacity: 1;
-    }
-}
-
-@keyframes pulse {
-    0%{
-      color: black;
-    }
-    15%{
-       color: black ;
-    }
-    35%{
-        color: grey;
-    }
-    40%{
-        color:gainsboro;
-    }
-    45%{
-        color: rgb(255, 255, 255);
-    }
-    100% {
-      color: white;
-    }
-  }
 
 
 
 
 
 
+/* emphasize secret and hide*/

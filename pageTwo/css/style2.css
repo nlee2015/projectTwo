@@ -45,7 +45,7 @@ body{
     animation-name: fadeinCenterBelow;
     animation-delay: 1.5s;
     animation-direction: normal;
-    animation-duration: 4s;
+    animation-duration: 5s;
     animation-fill-mode: both;
     animation-iteration-count: 1;
     animation-timing-function:cubic-bezier(0.47, 0, 0.745, 0.715);
@@ -60,7 +60,6 @@ body{
 a{
     display: inline;
     flex-direction: row;
-    justify-content: space-around;
     align-items: center;
     font-size: 150pt;
     font-weight: bolder;
@@ -80,7 +79,7 @@ a{
 
 h2{
     animation: pulse 10s 1;
-    font-size: 55pt;
+    font-size: 65pt;
 }
 
 
@@ -113,7 +112,7 @@ h2{
     0%{
         opacity: 0;
     }
-    75%{
+    65%{
         opacity: 0.55;
     }
     100%{

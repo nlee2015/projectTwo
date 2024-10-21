@@ -29,7 +29,7 @@ body{
     font-size: 80pt;
 
     animation-name: fadeinLeft;
-    animation-delay: 15s;
+    animation-delay: 18s;
     animation-direction: normal;
     animation-duration: 10s;
     animation-fill-mode: both;
@@ -45,12 +45,12 @@ body{
     font-size: 55pt;
 
     animation-name: fadeupCenter;
-    animation-delay: 22s;
+    animation-delay: 28s;
     animation-direction: normal;
     animation-duration: 8s;
     animation-fill-mode: both;
     animation-iteration-count: 1;
-    animation-timing-function:cubic-bezier(0.47, 0, 0.745, 0.715);
+    animation-timing-function: ease-out;
 }
 
 a{
@@ -64,7 +64,7 @@ a{
     padding-bottom: 25%;
 
     animation-name: fadeinCenter;
-    animation-delay: 30s;
+    animation-delay: 35s;
     animation-direction: normal;
     animation-duration: 10s;
     animation-fill-mode: both;
@@ -100,7 +100,7 @@ a{
     0% {
         opacity: 0;
     }
-    25% {
+    35% {
         opacity: 1;
     }
     50%{
@@ -117,13 +117,13 @@ a{
         opacity: 0;
     }
     100%{
-        opacity: 50;
+        opacity: 1;
     }
     0%{
-        transform: translateY(500pt);
+        transform: translateY(350pt);
     }
     100%{
-        transform: translateY(-80pt);
+        transform: translateY(10pt);
     }
   }
 
