@@ -17,3 +17,126 @@ body{
     color: white;
 }
 
+#top{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:center;
+    font-weight:bold;
+    font-size: 55pt;
+    color: white;
+    
+
+    animation-name: top;
+    animation-direction: normal;
+    animation-duration: 12s;
+    animation-fill-mode: both;
+    animation-iteration-count: 1;
+    animation-timing-function:ease-in;
+}
+
+#middle{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:center;
+    font-weight:bold;
+    font-size: 55pt;
+    color: white;
+
+    animation-name: middle;
+    animation-delay: 2s;
+    animation-direction: normal;
+    animation-duration: 10s;
+    animation-fill-mode: both;
+    animation-iteration-count: 1;
+    animation-timing-function:ease-in;
+    
+}
+
+#bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:center;
+    font-weight:normal;
+    font-size: 55pt;
+    color: white;
+
+    animation-name: bottom;
+    animation-delay: 2s;
+    animation-direction: normal;
+    animation-duration: 8s;
+    animation-fill-mode: both;
+    animation-iteration-count: 1;
+    animation-timing-function:ease-in;
+}
+
+a{
+    position: absolute;
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    text-align: center;
+    font-weight:bold;
+    font-size: 55pt;
+    color: white;
+    position: absolute;
+    text-decoration: none;
+    padding-left: 45%;
+
+    animation-name: middleFade;
+    animation-delay: 10s;
+    animation-direction: normal;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    animation-iteration-count: 1;
+    animation-timing-function:ease-in;
+}
+
+
+
+
+
+@keyframes top{
+    0%, 100%{
+        opacity: 0;
+    }
+    35%{
+        opacity: 1;
+    }
+}
+
+@keyframes middle{
+    0%, 100%{
+        opacity: 0;
+    }
+    35%{
+        opacity: 1;
+    }
+}
+
+@keyframes bottom{
+    0%, 100%{
+        opacity: 0;
+    }
+    35%{
+        opacity: 1;
+    }
+}
+
+@keyframes middleFade{
+    0%, 100%{
+        opacity: 0;
+    }
+    35%{
+        opacity: 1;
+    }
+}
+
+
+
+
+
+
+

@@ -22,12 +22,12 @@ body{
     justify-content: space-around;
     align-items: center;
     font-weight: normal;
-    font-size: 55pt;
+    font-size: 50pt;
     color: white;
 
     animation-name: fadeinCenter;
     animation-direction:normal;
-    animation-duration: 1s;
+    animation-duration: 2s;
     animation-fill-mode: backwards;
     animation-iteration-count: 1;
     animation-timing-function:ease-in;
@@ -43,7 +43,7 @@ body{
     color: white;
 
     animation-name: fadeinCenterBelow;
-    animation-delay: 1.5s;
+    animation-delay: 0.5s;
     animation-direction: normal;
     animation-duration: 5s;
     animation-fill-mode: both;
@@ -69,7 +69,7 @@ a{
     text-decoration: none;
 
     animation-name: glow;
-    animation-delay: 6s;
+    animation-delay: 3.5s;
     animation-direction: alternate;
     animation-duration: 4s;
     animation-fill-mode: both;
@@ -103,11 +103,11 @@ h2{
 
 @keyframes glow{
     from{
-        text-shadow: 0 0 20px white;
+        text-shadow: 0 0 20px goldenrod;
     }
     to{
         text-shadow: 0 0 30px white,
-                    0 0 10px white;
+                    0 0 10px goldenrod;
     }
     0%{
         opacity: 0;
