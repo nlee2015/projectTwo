@@ -63,7 +63,7 @@ a{
     align-items: center;
     font-size: 150pt;
     font-weight: bolder;
-    color: white;
+    color: rgba(236, 59, 27, 0.71);
     text-transform: uppercase;
     word-spacing: 10px;
     text-decoration: none;
@@ -103,11 +103,11 @@ h2{
 
 @keyframes glow{
     from{
-        text-shadow: 0 0 20px goldenrod;
+        text-shadow: 0 0 20px rgb(218, 38, 32);
     }
     to{
         text-shadow: 0 0 30px white,
-                    0 0 10px goldenrod;
+                    0 0 10px rgb(246, 14, 14);
     }
     0%{
         opacity: 0;

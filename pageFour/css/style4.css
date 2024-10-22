@@ -22,14 +22,14 @@ body{
     flex-direction: row;
     justify-content: center;
     align-items:center;
-    font-weight:bold;
+    font-weight:bolder;
     font-size: 55pt;
     color: white;
     
 
     animation-name: top;
     animation-direction: normal;
-    animation-duration: 12s;
+    animation-duration: 6.5s;
     animation-fill-mode: both;
     animation-iteration-count: 1;
     animation-timing-function:ease-in;
@@ -40,14 +40,14 @@ body{
     flex-direction: row;
     justify-content: center;
     align-items:center;
-    font-weight:bold;
-    font-size: 55pt;
+    font-weight:bolder;
+    font-size: 65pt;
     color: white;
 
     animation-name: middle;
     animation-delay: 2s;
     animation-direction: normal;
-    animation-duration: 10s;
+    animation-duration: 4s;
     animation-fill-mode: both;
     animation-iteration-count: 1;
     animation-timing-function:ease-in;
@@ -60,13 +60,13 @@ body{
     justify-content: center;
     align-items:center;
     font-weight:normal;
-    font-size: 55pt;
+    font-size: 65pt;
     color: white;
 
     animation-name: bottom;
-    animation-delay: 2s;
+    animation-delay: 3s;
     animation-direction: normal;
-    animation-duration: 8s;
+    animation-duration: 3s;
     animation-fill-mode: both;
     animation-iteration-count: 1;
     animation-timing-function:ease-in;
@@ -78,22 +78,29 @@ a{
     flex-direction:row;
     justify-content: center;
     text-align: center;
-    font-weight:bold;
-    font-size: 55pt;
+    font-weight:bolder;
+    font-size: 85pt;
     color: white;
     position: absolute;
     text-decoration: none;
-    padding-left: 45%;
+    padding-left: 25%;
+    text-transform: capitalize;
 
     animation-name: middleFade;
-    animation-delay: 10s;
+    animation-delay: 6s;
     animation-direction: normal;
-    animation-duration: 1s;
+    animation-duration: 5s;
     animation-fill-mode: both;
     animation-iteration-count: 1;
     animation-timing-function:ease-in;
 }
 
+#know{
+    animation-name: middleFade;
+    animation-delay: 6s;
+    animation-direction: normal;
+    animation-duration: 5s;
+}
 
 
 
@@ -102,7 +109,7 @@ a{
     0%, 100%{
         opacity: 0;
     }
-    35%{
+    15%{
         opacity: 1;
     }
 }
@@ -111,7 +118,7 @@ a{
     0%, 100%{
         opacity: 0;
     }
-    35%{
+    15%{
         opacity: 1;
     }
 }
@@ -120,19 +127,22 @@ a{
     0%, 100%{
         opacity: 0;
     }
-    35%{
+    15%{
         opacity: 1;
     }
 }
 
 @keyframes middleFade{
-    0%, 100%{
+    0%{
         opacity: 0;
     }
-    35%{
+    100%{
+        transform: scale(2);
         opacity: 1;
     }
 }
+
+
 
 
 

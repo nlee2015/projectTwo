@@ -16,7 +16,7 @@ body{
     color: white;
     position: relative;
 
-    animation: pulse 10s 1; 
+    animation: pulse 8s 1; 
 }
 
 body:click{}
@@ -69,7 +69,7 @@ a{
     animation-name: fadeinCenter;
     animation-delay: 15s;
     animation-direction: normal;
-    animation-duration: 6s;
+    animation-duration: 5s;
     animation-fill-mode: both;
     animation-iteration-count: 1;
     animation-timing-function:cubic-bezier(0.47, 0, 0.745, 0.715);
@@ -85,7 +85,7 @@ a:hover{
     0%{
       background-color: black;
     }
-    10%{
+    /*10%{
         background-color: rgb(74, 66, 66);
     }
     20%{
@@ -93,6 +93,9 @@ a:hover{
     }
     30%{
         background-color: gainsboro ;
+    }*/
+    50%{
+        background-color: white;
     }
     100% {
       background-color: black;

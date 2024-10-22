@@ -28,7 +28,7 @@ body{
 
     animation-name: left;
     animation-direction: normal;
-    animation-duration: 8s;
+    animation-duration: 6s;
     animation-fill-mode: both;
     animation-iteration-count: 1;
     animation-timing-function:ease-in;
@@ -48,7 +48,7 @@ body{
     animation-name: fadeinRight;
     animation-delay: 2s;
     animation-direction: normal;
-    animation-duration: 8s;
+    animation-duration: 6s;
     animation-fill-mode: both;
     animation-iteration-count: 1;
     animation-timing-function:ease-in;
@@ -61,7 +61,7 @@ body{
     align-items:center;
     font-weight:bold;
     font-size: 85pt;
-    color: white;
+    color: goldenrod;
 }
 
 
@@ -72,11 +72,11 @@ a{
     align-items:center;
     font-weight:bold;
     font-size: 65pt;
-    color: white;
+    color: goldenrod;
     text-decoration: none;
 
     animation-name: center;
-    animation-delay: 8s;
+    animation-delay: 6.8s;
     animation-direction: normal;
     animation-duration: 1.5s;
     animation-fill-mode: both;
