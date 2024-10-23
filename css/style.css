@@ -16,7 +16,7 @@ body{
     color: white;
     position: relative;
 
-    animation: pulse 8s 1; 
+    animation: pulse 10s 1; 
 }
 
 #fadeinLeft{
