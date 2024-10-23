@@ -13,15 +13,17 @@ Fonts
 <br>
 <li>Racing Sans One
 <li>Times New Roman
+<li><img src="img/sketchesPageOne.jpg">
+<li><img src="img/sketchesPageTwo.jpg">
 
 
 
 # acknowledgements
-<li>"Live To Tell" by Madonna, produced by Madonna and Patrick Leonard
-<li>https://blog.hubspot.com/website/css-fade-in</li>
-<li>https://codepen.io/jbranchaud/pen/vYYqQjO 
-https://www.geeksforgeeks.org/<li>how-to-maintain-the-final-state-at-end-of-a-css3-animation/ 
-<li>https://stackoverflow.com/questions/12991164/<li>maintaining-the-final-state-at-end-of-a-css-animation 
+<li><a href="https://genius.com/Madonna-live-to-tell-lyrics">"Live To Tell"</a> by Madonna, produced by Madonna and Patrick Leonard, 1986
+<li>"https://blog.hubspot.com/website/css-fade-in"
+<li>"https://codepen.io/jbranchaud/pen/vYYqQjO"
+<li>https://www.geeksforgeeks.org/how-to-maintain-the-final-state-at-end-of-a-css3-animation/ 
+<li>https://stackoverflow.com/questions/12991164/maintaining-the-final-state-at-end-of-a-css-animation 
 <li>https://youtu.be/8TEubI8PIXU?feature=shared 
 <br>
-Here are the references that I used for this project.
+Here are the sources that I used for this project.

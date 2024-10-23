@@ -71,8 +71,6 @@ a{
     justify-content: center;
     align-items:center;
     font-weight:bold;
-   
-    color: goldenrod;
     text-decoration: none;
 
     animation-name: center;
@@ -124,6 +122,3 @@ a{
 
 
 
-
-
-/* emphasize secret and hide*/
