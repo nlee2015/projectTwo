@@ -95,15 +95,15 @@ a{
     animation-timing-function:ease-in;
 }
 
-#know{
+/*#know{
     animation-name: know;
     animation-delay: 5s;
     animation-direction: alternate;
-    animation-duration: 2s;
+    animation-duration: 4s;
     animation-fill-mode: both;
     animation-iteration-count: infinite;
     animation-timing-function:ease-in-out;
-}
+}*/
 
 
 
@@ -148,7 +148,7 @@ a{
     }
 }
 
-@keyframes know{
+/*@keyframes know{
     50%{
         text-shadow: 0 0 20px goldenrod;
     }
@@ -156,7 +156,7 @@ a{
         text-shadow: 0 0 30px goldenrod,
                     0 0 10px goldenrod;
     }
-}
+}*/
 
 
   
