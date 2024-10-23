@@ -10,7 +10,7 @@ body{
     justify-content: space-around;
     width: 100%;
     height: 100vh;
-    font-family: "Courgette", cursive;
+    font-family: "Racing Sans One", regular;
     font-style: normal;
     background-color: black;
     color: white;
@@ -29,7 +29,7 @@ body{
     font-size: 65pt;
 
     animation-name: fadeinLeft;
-    animation-delay: 6.5s;
+    animation-delay: 5s;
     animation-direction: normal;
     animation-duration: 6s;
     animation-fill-mode: both;
@@ -61,7 +61,7 @@ a{
     font-size: 50pt;
     font-weight: bold;
     text-decoration: none;
-    color: white;
+    color: goldenrod;
     padding-bottom: 25%;
 
     animation-name: fadeinCenter;
@@ -71,11 +71,8 @@ a{
     animation-fill-mode: both;
     animation-iteration-count: 1;
     animation-timing-function:cubic-bezier(0.47, 0, 0.745, 0.715);
+}
 
-}
-a:hover{
-    color: gold;
-}
 
 
 
