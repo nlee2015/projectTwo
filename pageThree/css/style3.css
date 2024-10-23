@@ -28,7 +28,7 @@ body{
 
     animation-name: left;
     animation-direction: normal;
-    animation-duration: 6s;
+    animation-duration: 5s;
     animation-fill-mode: both;
     animation-iteration-count: 1;
     animation-timing-function:ease-in;

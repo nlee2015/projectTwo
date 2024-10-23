@@ -29,7 +29,7 @@ body{
 
     animation-name: top;
     animation-direction: normal;
-    animation-duration: 6.5s;
+    animation-duration: 6s;
     animation-fill-mode: both;
     animation-iteration-count: 1;
     animation-timing-function:ease-in;
@@ -88,18 +88,21 @@ a{
 
     animation-name: middleFade;
     animation-delay: 6s;
-    animation-direction: normal;
-    animation-duration: 5s;
+    animation-direction: alternate;
+    animation-duration: 4s;
     animation-fill-mode: both;
     animation-iteration-count: 1;
     animation-timing-function:ease-in;
 }
 
 #know{
-    animation-name: middleFade;
-    animation-delay: 6s;
-    animation-direction: normal;
-    animation-duration: 5s;
+    animation-name: know;
+    animation-delay: 5s;
+    animation-direction: alternate-reverse;
+    animation-duration: 4s;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+    animation-timing-function:ease-in;
 }
 
 
@@ -134,14 +137,29 @@ a{
 
 @keyframes middleFade{
     0%{
+        text-shadow: 0 0 20px goldenrod;
         opacity: 0;
     }
     100%{
+        text-shadow: 0 0 30px goldenrod,
+                    0 0 10px goldenrod;
         transform: scale(2);
         opacity: 1;
     }
 }
 
+@keyframes know{
+    50%{
+        text-shadow: 0 0 20px goldenrod;
+    }
+    100%{
+        text-shadow: 0 0 30px goldenrod,
+                    0 0 10px goldenrod;
+    }
+}
+
+
+  
 
 
 
