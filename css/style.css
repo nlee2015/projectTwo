@@ -31,7 +31,7 @@ body{
     animation-name: fadeinLeft;
     animation-delay: 5s;
     animation-direction: normal;
-    animation-duration: 6s;
+    animation-duration: 4s;
     animation-fill-mode: both;
     animation-iteration-count: 1;
     animation-timing-function:cubic-bezier(0.47, 0, 0.745, 0.715);
@@ -45,9 +45,9 @@ body{
     font-size: 50pt;
 
     animation-name: fadeupCenter;
-    animation-delay: 10s;
+    animation-delay: 8s;
     animation-direction: normal;
-    animation-duration: 5s;
+    animation-duration: 4s;
     animation-fill-mode: both;
     animation-iteration-count: 1;
     animation-timing-function: ease-out;
@@ -65,7 +65,7 @@ a{
     padding-bottom: 25%;
 
     animation-name: fadeinCenter;
-    animation-delay: 14s;
+    animation-delay: 11s;
     animation-direction: normal;
     animation-duration: 3s;
     animation-fill-mode: both;

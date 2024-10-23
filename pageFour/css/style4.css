@@ -99,7 +99,7 @@ a{
     animation-name: know;
     animation-delay: 5s;
     animation-direction: alternate;
-    animation-duration: 4s;
+    animation-duration: 2s;
     animation-fill-mode: both;
     animation-iteration-count: infinite;
     animation-timing-function:ease-in-out;
@@ -121,7 +121,7 @@ a{
     0%, 100%{
         opacity: 0;
     }
-    15%{
+    20%{
         opacity: 1;
     }
 }
