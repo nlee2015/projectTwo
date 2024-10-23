@@ -93,6 +93,12 @@ a{
       background-color: black;
     }
   }
+/* Pulsing background adopted from
+        Author: Josh Branchaud
+        Date: N/A
+        URL: https://codepen.io/jbranchaud/pen/vYYqQjO*/
+
+
 
   @keyframes fadeinLeft {
     0% {
