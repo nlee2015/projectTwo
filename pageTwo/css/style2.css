@@ -65,7 +65,7 @@ a{
     font-weight: bolder;
     color: rgba(236, 59, 27, 0.71);
     text-transform: uppercase;
-    word-spacing: 10px;
+    word-spacing: 20px;
     text-decoration: none;
 
     animation-name: glow;

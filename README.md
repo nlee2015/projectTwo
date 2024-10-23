@@ -13,4 +13,10 @@ technical overview is still in the process, font style might change, will have m
 
 # acknowledgements
 <li>
+https://blog.hubspot.com/website/css-fade-in
+https://codepen.io/jbranchaud/pen/vYYqQjO 
+https://www.geeksforgeeks.org/how-to-maintain-the-final-state-at-end-of-a-css3-animation/ 
+https://stackoverflow.com/questions/12991164/maintaining-the-final-state-at-end-of-a-css-animation 
+https://youtu.be/8TEubI8PIXU?feature=shared 
+
 acknowledgements also still in the process, will add more in the following days. I am very sorry for the lack of work 

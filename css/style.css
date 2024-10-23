@@ -45,7 +45,7 @@ body{
     font-size: 50pt;
 
     animation-name: fadeupCenter;
-    animation-delay: 11s;
+    animation-delay: 10s;
     animation-direction: normal;
     animation-duration: 5s;
     animation-fill-mode: both;
@@ -67,7 +67,7 @@ a{
     animation-name: fadeinCenter;
     animation-delay: 14s;
     animation-direction: normal;
-    animation-duration: 4s;
+    animation-duration: 3s;
     animation-fill-mode: both;
     animation-iteration-count: 1;
     animation-timing-function:cubic-bezier(0.47, 0, 0.745, 0.715);
@@ -80,17 +80,14 @@ a{
     0%{
       background-color: black;
     }
-    /*10%{
-        background-color: rgb(74, 66, 66);
-    }
-    20%{
-        background-color: grey ;
+    15%{
+        background-color: rgb(129, 125, 125);
     }
     30%{
+        background-color: rgb(200, 200, 200) ;
+    }
+    35%{
         background-color: gainsboro ;
-    }*/
-    50%{
-        background-color: white;
     }
     100% {
       background-color: black;
